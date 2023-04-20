@@ -40,6 +40,11 @@ button {
 .disabled {
   cursor: not-allowed;
   pointer-events: none;
+
+  /* Button disabled - CSS Color class */
+  color: #c0c0c0;
+  background-color: #ffffff;
+  border: 2px solid grey;
 }
 
 @keyframes App-logo-spin {
